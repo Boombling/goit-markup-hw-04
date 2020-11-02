@@ -289,6 +289,27 @@ img {
   font-size: 16px;
   line-height: 1.87;
 }
+/* clients */
+/* .clients {
+  justify-content: center;
+  align-items: center;
+} */
+.clients-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* justify-content: center; */
+  align-items: center;
+}
+.clients-item {
+  /* justify-content: center;
+  align-items: center; */
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
 /* footer */
 
 .address {
