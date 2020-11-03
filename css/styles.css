@@ -130,6 +130,11 @@ img {
 /* hero */
 .hero {
   background-color: #2f303a;
+  background-image: url(../image/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
 }
 
 .hero-container {
@@ -143,6 +148,7 @@ img {
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
+  padding-top: 200px;
 
   color: var(--primayry-white-color);
   font-weight: 900;
@@ -156,6 +162,7 @@ img {
 .button {
   padding: 10px 32px;
   border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   color: var(--primayry-white-color);
   background-color: var(--accent-color);
   font-family: Roboto;
@@ -226,6 +233,7 @@ img {
   font-size: 14px;
   line-height: 1.71;
 }
+
 /* work */
 .work {
   margin-bottom: 50px;
@@ -296,20 +304,24 @@ img {
 } */
 .clients-list {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  /* justify-content: center; */
-  align-items: center;
+  /* justify-content: space-between; */
+  /* align-items: center; */
 }
 .clients-item {
-  /* justify-content: center;
-  align-items: center; */
+  display: flex;
+  justify-content: center;
   width: 170px;
   height: 90px;
   border: 1px solid #afb1b8;
   box-sizing: border-box;
   border-radius: 4px;
+  justify-content: center;
+  align-items: center;
 }
+.clients-item:not(:first-child) {
+  margin-left: 30px;
+}
+
 /* footer */
 
 .address {
