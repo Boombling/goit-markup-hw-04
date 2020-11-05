@@ -13,6 +13,7 @@ html {
   --accent-color: #2196f3;
   --primayry-white-color: #ffffff;
   --secondary-bg-color: #f5f4fa;
+  --icon-color: #afb1b8;
 }
 
 body {
@@ -302,28 +303,28 @@ img {
   line-height: 1.87;
 }
 /* clients */
-/* .clients {
-  justify-content: center;
-  align-items: center;
-} */
 .clients-list {
   display: flex;
-  /* justify-content: space-between; */
-  /* align-items: center; */
 }
+
 .clients-item {
   display: flex;
-  justify-content: center;
   width: 170px;
   height: 90px;
-  border: 1px solid #afb1b8;
-  box-sizing: border-box;
-  border-radius: 4px;
   justify-content: center;
   align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
-.clients-item:not(:first-child) {
-  margin-left: 30px;
+.clients-icon {
+  fill: var(--icon-color);
+}
+
+.clients-item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-link:hover {
+  fill: var(--accent-color);
 }
 
 /* footer */
