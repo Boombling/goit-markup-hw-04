@@ -263,9 +263,7 @@ img {
 .section.team {
   background-color: var(--secondary-bg-color);
 }
-/* .icon {
-  display: flex;
-} */
+
 .teams {
   display: flex;
   flex-wrap: wrap;
@@ -307,7 +305,7 @@ img {
   display: flex;
 }
 
-.clients-item {
+.clients-link {
   display: flex;
   width: 170px;
   height: 90px;
@@ -323,8 +321,13 @@ img {
 .clients-item:not(:last-child) {
   margin-right: 30px;
 }
-.clients-link:hover {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
   fill: var(--accent-color);
+}
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--accent-color);
 }
 
 /* footer */
