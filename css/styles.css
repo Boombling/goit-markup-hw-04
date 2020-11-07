@@ -140,7 +140,8 @@ img {
   fill: var(--icon-color);
   margin-right: 10px;
 }
-.contacts-mail:hover .mail {
+.contacts-mail:hover .mail,
+.contacts-mail:focus .mail {
   fill: var(--accent-color);
 }
 .contacts-phone {
@@ -154,7 +155,8 @@ img {
   fill: var(--icon-color);
   margin-right: 10px;
 }
-.contacts-phone:hover .phone {
+.contacts-phone:hover .phone,
+.contacts-phone:focus .phone {
   fill: var(--accent-color);
 }
 
