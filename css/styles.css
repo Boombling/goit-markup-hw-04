@@ -283,16 +283,16 @@ img {
   margin-bottom: 30px;
 }
 .icon-antenna::before {
-  background-image: url(../image/feature-icon/antenna.svg);
+  background-image: url(../image/icon/antenna.svg);
 }
 .icon-clock::before {
-  background-image: url(../image/feature-icon/clock.svg);
+  background-image: url(../image/icon/clock.svg);
 }
 .icon-diagram::before {
-  background-image: url(../image/feature-icon/diagram.svg);
+  background-image: url(../image/icon/diagram.svg);
 }
 .icon-astronaut::before {
-  background-image: url(../image/feature-icon/astronaut.svg);
+  background-image: url(../image/icon/astronaut.svg);
 }
 
 /* work */
