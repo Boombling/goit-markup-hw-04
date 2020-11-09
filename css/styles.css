@@ -538,9 +538,11 @@ img {
 .practics-item:nth-child(3n + 1) {
   margin-left: 0;
 }
-
-.practics-item:hover,
-.practics-item:focus {
+.practics-link {
+  display: block;
+}
+.practics-link:hover,
+.practics-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -556,8 +558,8 @@ img {
   letter-spacing: 0.06em;
 }
 .work-info {
-  margin-top: 0;
-  margin-bottom: 20px;
+  margin: 0;
+  padding-bottom: 20px;
   padding-left: 20px;
   color: var(--title-text-color);
   font-size: 16px;
